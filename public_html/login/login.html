@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <title>Login</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="../javascript/login.js" type="text/javascript"></script>
+        <link href="../css/login.css" rel="stylesheet" type="text/css"/>
+        <link rel="icon" type="image/jpeg" href="../images/icon_cinema.jpg">
+   </head>
+    <body>
+            <div id="container">
+            <header id="banner">
+            <div class ="list">
+                    <ul>
+                        <li id="login" class="list_word"><a href="../login/login.html" target="_blank" >LOGIN</a></li>
+                        <li id="register" class="list_word"><a href="../register/register.html" target="_blank">REGISTER</a></li> 
+                        <li id="home" class="list_word"><a href="../home/home.html" target="_blank">HOME</a></li> 
+                        
+                        <li id="showtime" class="list_word"><span>SHOWTIMES</span>
+                            <ul>
+                                
+                              
+                               <li><span class="list-left"><a href="../home/home.html" target="_blank">Today</a></span><span class="list-right"><a href="../showtimes/sunday.html" target="_blank">Sunday</a></span></li>
+                               <li><span class="list-left"><a href="../showtimes/tomorrow.html" target="_blank">Tomorrow</a></span><span class="list-right"><a href="../showtimes/monday.html" target="_blank">Monday</a></span></li>
+                               <li><span class="list-left"><a href="../showtimes/saturday.html" target="_blank">Saturday</a></span><span class="list-right"><a href="../showtimes/tuesday.html" target="_blank">Tuesday</a></span></li>
+                               
+                                
+                            </ul>
+                        </li>
+                        <li id="coming" class="list_word"><a href="../coming_soon/coming_soon.html" target="_blank" >COMING SOON</a></li>
+                        <li id="restaurant" class="list_word"><a href="../restaurant/restaurant.html" target="_blank" >RESTAURANT</a></li>
+                        
+                    </ul>
+                
+            </div>  
+            </header>
+            
+              <main id="main_content1">
+        
+             <img id="image" src="../images/Background (1) (1).png" alt=""/>
+            </main>
+                
+            <div id="page">
+                <form method="get" action="../home/home.html" onsubmit="return isLoginValid()">
+                    <table id="table">
+                       <tbody class="table_words">
+
+                            <tr>
+                                <td><label for="username">Username:</label></td>   
+                                <td><input type="text" id="username" name="username" autofocus="" ><label class="errorMessage" id ="usernameErrorMessage"></label></td>   
+                            </tr>
+
+                            <tr>
+                                <td><label for="email">Email:</label></td>
+                                <td><input type="text" id="email" name="email" ><label class="errorMessage" id ="emailErrorMessage"></label></td>
+                            </tr>
+
+                            <tr>
+                                <td><label for="password">Password:</label></td>
+                                <td><input type="password" id="password" name="password" ><label class="errorMessage" id ="passwordErrorMessage"></label></td>
+                            </tr>
+                         
+                            <tr>
+                                <td><input type="submit" value="Login"></td>
+                            </tr>  
+
+                        </tbody>
+                        
+                    </table>
+                </form> 
+            </div>
+          
+          
+        </div>
+    </body>
+</html>

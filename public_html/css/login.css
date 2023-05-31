@@ -1,0 +1,300 @@
+           body
+           {
+               background-color: black;
+           }
+
+       
+
+           #container
+           {
+               position     : relative;
+               width        : 1500px;
+               height       : 800px;
+               margin-left  : auto;
+               margin-right : auto;
+             
+           }
+
+           #banner
+           {
+               position: relative;
+               top:0px;
+               left:0px;
+               width:100%;
+               height:100px;
+               border: thin orange solid;
+               background-color: black;
+           }
+
+            div #list
+            {
+                position: absolute;
+                width: 175px;
+                height: 1000px;
+                top: 50px;
+                text-align: center;
+                font-size: 24px;
+                font-weight: bold;
+            }
+
+            .list ul
+            {
+
+                list-style-type: none;
+
+            }
+ 
+            .list_word
+            {
+                font-size: 32px;
+                font-weight: bold;
+                text-align: center;
+            }
+            
+            #login
+            {
+                position: absolute;
+                top: 20px;
+                right: 40px;
+                width: 160px;
+                height: 50px;
+               
+            }
+
+            #register
+            {
+                position: absolute;
+                top: 20px;
+                right: 200px;
+                width: 200px;
+                height: 50px;
+                border-right: thin solid orange;
+            }
+            
+            #home
+            {
+                position: absolute;
+                top: 20px;
+                right: 510px;
+                width: 115px;
+                height: 50px;
+                text-align: left;
+                border-right: thin solid orange;
+            }
+            
+            #showtime
+            {
+                position: absolute;
+                top: 20px;
+                right: 635px;
+                width: 230px;
+                height: 50px;
+               
+           }
+           
+           #coming           
+           {
+                position: absolute;
+                top: 20px;
+                right: 865px;
+                width: 250px;
+                height: 50px;
+           }
+           
+            #restaurant
+            {
+                position: absolute;
+                top: 20px;
+                left: 120px;
+                width: 250px;
+                height: 50px;
+            }
+            
+            
+            .list ul
+            {
+              list-style : none; 
+              padding    : 0px;   
+              margin     : 0px;  
+            }
+
+            .list li
+            {
+              width      : 280px;    
+              text-align : center;  
+            }
+                     
+            .list a,
+            .list span
+            {
+              text-decoration  : none;     
+              color            : white; 
+              background-color: black;
+
+            }
+
+            .list a:hover,
+            .list a:active,
+            .list span:hover
+            {
+              color            : yellow;
+             
+            }
+
+            .list span:hover
+            {
+              cursor: pointer;
+            }
+
+            .list.horizontal li
+            {
+              display : inline-block;  
+              float   : right;          
+            }
+            .list ul li ul
+            {
+              visibility : hidden;
+              position   : absolute; 
+              
+            }
+
+            .list ul li:hover ul
+            {
+              visibility : visible;
+            }
+
+            .list ul li
+            {
+              position : relative; 
+            }
+
+            .list.vertical ul li ul
+            {
+              left : 300px;  
+              top  : 20px;
+              margin-top: 0px;
+              width: 150px;
+              z-index: 5;
+
+            }
+            
+            .list ul li
+            {
+                margin: 10px;
+            }
+            
+            .list ul li ul li 
+            {
+                margin: 0px;
+                top: 20px;
+                left: 0px;
+                font-size: 24px;
+                width: 250px;
+                z-index: 5;
+            }
+            
+             .list-left
+            {
+                width:50%;
+                float:left;
+            }
+            
+            .list-right
+            {
+                width:50%;
+                float:right;
+            }
+            
+            .start_of_row
+            {
+              clear:both;
+            }
+            
+             #main_content1
+            {
+               position: relative;
+               left:0px;
+               width:100%;
+               height:360px;
+               border: thin orange solid;
+               margin-top: 10px;
+            }
+            
+            #image
+            {
+                width: 100%;
+                height: 100%;
+                    
+            }
+            
+            #page
+            {
+               position: relative;
+               left:0px;
+               width:99%;
+               height:84%;
+              border: thin orange solid;
+               margin-top: 10px;
+               padding:5px;
+               background-color: black;
+            }
+            
+            #table
+            {
+                position: absolute;
+                top: 70px;
+                left: 380px;
+                width: 60%;
+                height: 80%;
+                background-color: black;
+            
+                
+            }
+            
+            #loginErrorMessage
+            {
+                bottom: -35px;
+                left: 220px;
+                width: 400px;
+                height: 40px;
+                position:absolute;
+               
+            }
+            
+         
+            input
+            {
+                position: relative;
+                right: -8px;
+                border: thick orange solid;
+                width: 450px;
+                height: 40px;
+                font-size: 24px;
+            }
+            
+            input[type=submit]
+            {
+                cursor: pointer;
+                position:absolute;
+                bottom: 20px;
+                left: 200px;
+                font-size: 24px;
+                background-color: black;
+                color: yellow;
+            }
+            
+            .table_words
+            {
+                color: yellow;
+                left: 20px;
+                font-family: SF-Arch-Rival;
+                font-size: 32px;
+                border: thick orange solid;
+            }
+            
+            .errorMessage
+            {
+                color: red;
+                font-size: 21px;
+            }
+           

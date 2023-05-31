@@ -1,0 +1,2116 @@
+          body
+          {
+              background-color: black;
+          }
+
+     
+           #container
+           {
+               position     : relative;
+               width        : 1500px;
+               height       : 6393px;
+               margin-left  : auto;
+               margin-right : auto;
+                          
+           }
+
+           #banner
+           {
+               position: relative;
+               top:0px;
+               left:0px;
+               width:100%;
+               height:100px;
+               background-color: black;
+               border: thin orange solid;             
+              
+           }
+
+            div #list
+            {
+                position: absolute;
+                width: 175px;
+                height: 1000px;
+                top: 50px;
+                text-align: center;
+                font-size: 24px;
+                font-weight: bold;
+            }
+
+            .list ul
+            {
+
+                list-style-type: none;
+
+            }
+ 
+            .list_word
+            {
+                font-size: 32px;
+                font-weight: bold;
+                text-align: center;
+                
+            }
+            
+           #login
+            {
+                position: absolute;
+                top: 20px;
+                right: 20px;
+                width: 160px;
+                height: 50px;
+               
+            }
+
+            #register
+            {
+                position: absolute;
+                top: 20px;
+                right: 200px;
+                width: 200px;
+                height: 50px;
+                border-right: thin solid orange;
+            }
+            
+            #home
+            {
+                position: absolute;
+                top: 20px;
+                right: 510px;
+                width: 115px;
+                height: 50px;
+                text-align: left;
+               border-right: thin solid orange;
+            }
+            
+            #showtime
+            {
+                position: absolute;
+                top: 20px;
+                right: 635px;
+                width: 230px;
+                height: 50px;
+               
+           }
+           
+           #coming
+            {
+                position: absolute;
+                top: 20px;
+                right: 865px;
+                width: 250px;
+                height: 50px;
+
+            }
+            
+            #restaurant
+            {
+                position: absolute;
+                top: 20px;
+                left: 120px;
+                width: 250px;
+                height: 50px;
+            }
+            
+            .list ul
+            {
+              list-style : none;  
+              padding    : 0px;   
+              margin     : 0px;   
+            }
+
+            .list li
+            {
+              width      : 280px;    
+              text-align : center;  
+            }
+            
+            .list a,
+            .list span,
+            input
+            {
+              text-decoration  : none;    
+              color            : white; 
+              background-color: black;
+
+            }
+
+            .list a:hover,
+            .list a:active,
+            .list span:hover,
+            input:hover
+            {
+              color            : yellow;
+             
+            }
+
+            .list span:hover,
+            input
+            {
+              cursor: pointer;
+            }
+
+            .list.horizontal li
+            {
+              display : inline-block;  
+              float   : right;          
+            }
+            
+            .list ul li ul
+            {
+              visibility : hidden;
+              position   : absolute; 
+              
+            }
+
+            .list ul li:hover ul
+            {
+              visibility : visible;
+            }
+
+            .list ul li
+            {
+              position : relative; 
+            }
+
+            .list.vertical ul li ul
+            {
+              left : 300px; 
+              top  : 20px;
+              margin-top: 0px;
+              width: 150px;
+              z-index: 5;
+
+            }
+            
+            .list ul li
+            {
+                margin: 10px;
+            }
+            
+            .list ul li ul li 
+            {
+                margin: 0px;
+                top: 20px;
+                left: 0px;
+                font-size: 24px;
+                width: 250px;
+                z-index: 5;
+            }
+            
+            .start_of_row
+            {
+              clear:both;
+            }
+            
+            #main_content1
+            {
+               position: relative;
+               
+               left:0px;
+               width:100%;
+               height:360px;
+               border: thin orange solid;
+               margin-top: 10px;
+           }
+           
+            #image
+            {
+                width: 100%;
+                height: 100%;
+                border-radius:50%;
+               filter: brightness(150%);
+              
+            }
+            
+            #main_content2
+            {
+               position: relative;
+               left:0px;
+               width:99.35%;
+               height:5900px;
+               margin-top: 10px;
+               padding:5px;
+               background-color: black;
+               
+            }
+            
+            #side_menu
+            {
+                position: fixed;
+                bottom: 10px;
+                z-index: 5;
+            }
+            
+           .menu ul
+            {
+              list-style : none;  
+              padding    : 0px;   
+              margin     : 0px;   
+              border: thin orange solid;
+              left: 5px;
+              width: 130px;
+              height: 260px;
+              background-color: black;
+            }
+
+            .menu li
+            {
+              width : 130px;
+              margin-top: 10px;
+              
+            }
+
+            .menu a,
+            .menu span
+            {
+              text-decoration  : none;    
+              color            : white; 
+             background-color: black;
+            }
+
+            .menu a:hover,
+            .menu a:active,
+            .menu span:hover
+            {
+              color            : yellow;
+             
+            }
+
+            .menu span:hover 
+            {
+              cursor: pointer;
+            }
+       
+
+            .menu ul li ul
+            {
+             visibility : hidden;
+             position: absolute;           
+             transition: 1s;
+             width: 150px;
+             height: 230px;
+             border: red thick solid;
+             z-index: 5;
+            }
+
+            .menu ul li:hover ul
+            {
+              visibility : visible;
+              width: 155px;
+
+            }
+            
+            .menu ul li
+            {
+                position:relative;
+                text-align: center;                             
+            }
+            
+            .menu.vertical ul li ul
+            {
+              left : 140px;  
+              bottom  : -20px;
+              background-color: black;
+            }
+            
+            .menu.vertical ul li ul li
+            {
+                width: 150px;
+                text-align: center;
+            }
+          
+            #home_side
+            {
+                margin-top: 18px;
+            }
+            
+            #coming_side
+            {
+                margin-top: 18px;
+            }
+            
+            #showtime_side
+            {
+                margin-top: 18px;
+            }
+            
+            #restaurant_side
+            {
+                margin-top: 18px;
+            }
+            
+            .side_menu
+            {
+                font-size: 28px;
+                margin-top: 20px;
+            }
+            
+            .side_menu_list
+            {
+                font-size: 24px;
+                
+            }
+
+            div#frozen
+            {
+                position: relative;
+                left: 230px;
+                width: 80%;
+                height: 570px;
+                border: orange solid thin;
+
+            }
+            
+            #frozen_name
+            {
+                position: absolute;
+                top: 10px;
+                left: 10px;
+                width: 300px;
+                height: 50px;
+            }
+            
+            #frozen_about
+            {
+                position: absolute;
+                top: 30px;
+                right: 50px;
+                width: 800px;
+                height: 400px;
+            }
+            
+            #frozen_image
+            {
+                position: absolute;
+                top: 75px;
+                left:10px;
+                width: 600px;
+                height: 500px;
+            }
+            
+            #frozen_list
+            {
+                position: absolute;
+                top: 250px;
+                left: 350px;
+                width: 65px;
+                height: 200px;
+                
+            }
+            
+            #frozen_date
+            {
+                position: absolute;
+                top: 5px;
+                left: 0px;
+                height: 30px;
+            }
+            
+            #frozen_starring
+            {
+                position: absolute;
+                top: 50px;
+                left: 0px;
+                height: 30px;
+            }
+            
+            #frozen_director
+            {
+                position: absolute;
+                top: 105px;
+                left:0px;
+                height: 30px;
+            }
+            
+            #frozen_genres
+            {
+                position: absolute;
+                bottom: 10px;
+                left: 0px;
+                height: 30px;
+            } 
+            
+            #frozen_info
+            {
+                position: absolute;
+                top: 250px;
+                left: 420px;
+                width: 400px;
+                height: 200px;
+                
+            }
+        
+            #frozen_info_date
+            {
+                position: absolute;
+                top: -15px;
+                width: 400px;
+                height: 30px;
+            }
+            
+            #frozen_info_starring
+            {
+                position: absolute;
+                top: 30px;
+                width: 400px;
+                height: 30px;
+
+            }
+            
+            #frozen_info_director
+            {
+                position: absolute;
+                top: 85px;
+                width: 400px;
+                height: 30px;
+            }
+            
+            #frozen_info_genres
+            {
+                position:absolute;
+                bottom: -10px;
+                width: 400px;
+                height: 30px;
+            }
+
+            #frozen_table
+            {
+                position: absolute;
+                bottom: 25px;
+                left: 350px;
+                width: 800px;
+                height: 85px;
+            }
+            
+            div#knives_out
+            {
+                position: relative;
+                left: 230px;
+                width: 80%;
+                height: 570px;
+                border: orange solid thin;
+            }
+            
+            #knives_out_name
+            {
+                position: absolute;
+                top: 10px;
+                left: 10px;
+                width: 300px;
+                height: 50px;
+            }
+            
+            #knives_out_about
+            {
+                position: absolute;
+                top: 10px;
+                right: 50px;
+                width: 800px;
+                height: 400px;
+            }
+            
+            #knives_out_image
+            {
+                position: absolute;
+                top: 75px;
+                left:10px;
+                width: 600px;
+                height: 500px;
+            }
+            
+            #knives_out_list
+            {
+                position: absolute;
+                top: 230px;
+                left: 350px;
+                width: 65px;
+                height: 200px;              
+            }
+            
+            #knives_out_date
+            {
+                position: absolute;
+                top: 5px;
+                left: 0px;
+                height: 30px;
+            }
+            
+            #knives_out_starring
+            {
+                position: absolute;
+                top: 50px;
+                left: 0px;
+                height: 30px;
+            }
+            
+            #knives_out_director
+            {
+                position: absolute;
+                top: 105px;
+                left:0px;
+                height: 30px;
+            }
+            
+            #knives_out_genres
+            {
+                position: absolute;
+                bottom: 10px;
+                left: 0px;
+                height: 30px;
+            }
+            
+            #knives_out_info
+            {
+                position: absolute;
+                top: 230px;
+                left: 420px;
+                width: 400px;
+                height: 200px;
+            }
+            
+            #knives_out_info_date
+            {
+                position: absolute;
+                top: -15px;
+                width: 400px;
+                height: 30px;
+            }
+            
+            #knives_out_info_starring
+            {
+                position: absolute;
+                top: 30px;
+                width: 400px;
+                height: 30px;
+            }
+            
+            #knives_out_info_director
+            {
+                position: absolute;
+                top: 85px;
+                width: 400px;
+                height: 30px;
+            }
+            
+            #knives_out_info_genres
+            {
+                position:absolute;
+                bottom: -10px;
+                width: 400px;
+                height: 30px;
+            }
+
+            #knives_out_table
+            {
+                position: absolute;
+                bottom: 25px;
+                left: 350px;
+                width: 800px;
+                height: 85px;
+            }
+            
+            div#last_christmas
+            {
+                position: relative;
+                left: 230px;
+                width: 80%;
+                height: 550px;
+                border: orange solid thin;
+            }
+            
+            #last_christmas_name
+            {
+                position: absolute;
+                top: 10px;
+                left: 10px;
+                width: 300px;
+                height: 50px;
+            }
+            
+            #last_christmas_about
+            {
+                position: absolute;
+                top: 30px;
+                right: 50px;
+                width: 800px;
+                height: 400px;
+            }
+            
+            #last_christmas_image
+            {
+                position: absolute;
+                top: 75px;
+                left:10px;
+                width: 600px;
+                height: 500px;
+            }
+            
+            #last_christmas_list
+            {
+                position: absolute;
+                top: 230px;
+                left: 350px;
+                width: 65px;
+                height: 200px;
+            }
+            
+            #last_christmas_date
+            {
+                position: absolute;
+                top: 5px;
+                left: 0px;
+                height: 30px;
+            }
+            
+            #last_christmas_starring
+            {
+                position: absolute;
+                top: 55px;
+                left: 0px;
+                height: 30px;
+            }
+            
+            #last_christmas_director
+            {
+                position: absolute;
+                top: 105px;
+                left:0px;
+                height: 30px;
+            }
+            
+            #last_christmas_genres
+            {
+                position: absolute;
+                bottom: 10px;
+                left: 0px;
+                height: 30px;
+            }
+            
+            #last_christmas_info
+            {
+                position: absolute;
+                top: 230px;
+                left: 420px;
+                width: 400px;
+                height: 200px;
+            }
+            
+            #last_christmas_info_date
+            {
+                position: absolute;
+                top: -15px;
+                width: 400px;
+                height: 30px;
+            }
+            
+            #last_christmas_info_starring
+            {
+                position: absolute;
+                top: 35px;
+                width: 400px;
+                height: 30px;
+            }
+            
+            #last_christmas_info_director
+            {
+                position: absolute;
+                top: 85px;
+                width: 400px;
+                height: 30px;
+            }
+            
+            #last_christmas_info_genres
+            {
+                position:absolute;
+                bottom: -10px;
+                width: 400px;
+                height: 30px;
+            }
+
+            #last_christmas_table
+            {
+                position: absolute;
+                bottom: 25px;
+                left: 350px;
+                width: 800px;
+                height: 85px;
+            }
+        
+            div#right_the
+            {
+                position: relative;
+                left: 230px;
+                width: 80%;
+                height: 570px;
+                border: orange solid thin;
+            }
+            
+            #right_the_name
+            {
+                position: absolute;
+                top: 10px;
+                left: 10px;
+                width: 300px;
+                height: 50px;
+            }
+            
+            #right_the_about
+            {
+                position: absolute;
+                top: 10px;
+                right: 50px;
+                width: 800px;
+                height: 400px;
+            }
+            
+            #right_the_image
+            {
+                position: absolute;
+                top: 75px;
+                left:10px;
+                width: 600px;
+                height: 500px;
+            }
+            
+            #right_the_list
+            {
+                position: absolute;
+                top: 200px;
+                left: 350px;
+                width: 65px;
+                height: 200px;
+            }
+            
+            #right_the_date
+            {
+                position: absolute;
+                top: 5px;
+                left: 0px;
+                height: 30px;
+            }
+            
+            #right_the_starring
+            {
+                position: absolute;
+                top: 50px;
+                left: 0px;
+                height: 30px;
+            }
+            
+            #right_the_director
+            {
+                position: absolute;
+                top: 105px;
+                left:0px;
+                height: 30px;
+            }
+            
+            #right_the_genres
+            {
+                position: absolute;
+                bottom: 10px;
+                left: 0px;
+                height: 30px;
+            }
+            
+            #right_the_info
+            {
+                position: absolute;
+                top: 200px;
+                left: 420px;
+                width: 400px;
+                height: 200px;
+            }
+            
+            #right_the_info_date
+            {
+                position: absolute;
+                top: -15px;
+                width: 400px;
+                height: 30px;
+            }
+            
+            #right_the_info_starring
+            {
+                position: absolute;
+                top: 30px;
+                width: 400px;
+                height: 30px;
+            }
+            
+            #right_the_info_director
+            {
+                position: absolute;
+                top: 85px;
+                width: 400px;
+                height: 30px;
+            }
+            
+            #right_the_info_genres
+            {
+                position:absolute;
+                bottom: -10px;
+                width: 400px;
+                height: 30px;
+            }
+
+            #right_the_table
+            {
+                position: absolute;
+                bottom: 25px;
+                left: 350px;
+                width: 800px;
+                height: 85px;
+            }
+            
+            div#ordinary_love
+            {
+                position: relative;
+                left: 230px;
+                width: 80%;
+                height: 570px;
+                border: orange solid thin;
+            }
+            
+            #ordinary_love_name
+            {
+                position: absolute;
+                top: 10px;
+                left: 10px;
+                width: 300px;
+                height: 50px;
+            }
+            
+            #ordinary_love_about
+            {
+                position: absolute;
+                top: 10px;
+                right: 50px;
+                width: 800px;
+                height: 400px;
+            }
+            
+            #ordinary_love_image
+            {
+                position: absolute;
+                top: 75px;
+                left:10px;
+                width: 600px;
+                height: 500px;
+            }
+            
+            #ordinary_love_list
+            {
+                position: absolute;
+                top: 280px;
+                left: 350px;
+                width: 65px;
+                height: 200px;
+            }
+            
+            #ordinary_love_date
+            {
+                position: absolute;
+                top: 5px;
+                left: 0px;
+                height: 30px;
+            }
+            
+            #ordinary_love_starring
+            {
+                position: absolute;
+                top: 50px;
+                left: 0px;
+                height: 30px;
+            }
+            
+            #ordinary_love_director
+            {
+                position: absolute;
+                top: 105px;
+                left:0px;
+                height: 30px;
+            }
+            
+            #ordinary_love_genres
+            {
+                position: absolute;
+                bottom: 10px;
+                left: 0px;
+                height: 30px;
+            }
+            
+            #ordinary_love_info
+            {
+                position: absolute;
+                top: 280px;
+                left: 420px;
+                width: 400px;
+                height: 200px;
+            }
+            
+            #ordinary_love_info_date
+            {
+                position: absolute;
+                top: -15px;
+                width: 400px;
+                height: 30px;
+            }
+            
+            #ordinary_love_info_starring
+            {
+                position: absolute;
+                top: 30px;
+                width: 400px;
+                height: 30px;
+            }
+            
+            #ordinary_love_info_director
+            {
+                position: absolute;
+                top: 85px;
+                width: 400px;
+                height: 30px;
+            }
+            
+            #ordinary_love_info_genres
+            {
+                position:absolute;
+                bottom: -10px;
+                width: 400px;
+                height: 30px;
+            }
+
+            #ordinary_love_table
+            {
+                position: absolute;
+                bottom: -15px;
+                left: 350px;
+                width: 800px;
+                height: 85px;
+            }
+            
+            div#motherless_brooklyn
+            {
+                position: relative;
+                left: 230px;
+                width: 80%;
+                height: 570px;
+                border: orange solid thin;
+            }
+            
+            #motherless_brooklyn_name
+            {
+                position: absolute;
+                top: 10px;
+                left: 10px;
+                width: 300px;
+                height: 50px;
+            }
+            
+            #motherless_brooklyn_about
+            {
+                position: absolute;
+                top: 10px;
+                right: 50px;
+                width: 800px;
+                height: 400px;
+
+            }
+            
+            #motherless_brooklyn_image
+            {
+                position: absolute;
+                top: 90px;
+                left:10px;
+                width: 600px;
+                height: 500px;
+            }
+            
+            #motherless_brooklyn_list
+            {
+                position: absolute;
+                top: 210px;
+                left: 350px;
+                width: 65px;
+                height: 200px;
+            }     
+            
+            #motherless_brooklyn_date
+            {
+                position: absolute;
+                top: 5px;
+                left: 0px;
+                height: 30px;
+            }
+            
+            #motherless_brooklyn_starring
+            {
+                position: absolute;
+                top: 50px;
+                left: 0px;
+                height: 30px;
+            }
+            
+            #motherless_brooklyn_director
+            {
+                position: absolute;
+                top: 105px;
+                left:0px;
+                height: 30px;
+            }
+            
+            #motherless_brooklyn_genres
+            {
+                position: absolute;
+                bottom: 10px;
+                left: 0px;
+                height: 30px;
+            }
+            
+            #motherless_brooklyn_info
+            {
+                position: absolute;
+                top: 210px;
+                left: 420px;
+                width: 400px;
+                height: 200px;
+            }
+            
+            #motherless_brooklyn_info_date
+            {
+                position: absolute;
+                top: -15px;
+                width: 400px;
+                height: 30px;
+            }
+            
+            #motherless_brooklyn_info_starring
+            {
+                position: absolute;
+                top: 30px;
+                width: 400px;
+                height: 30px;
+            }
+            
+            #motherless_brooklyn_info_director
+            {
+                position: absolute;
+                top: 85px;
+                width: 400px;
+                height: 30px;
+            }
+            
+            #motherless_brooklyn_info_genres
+            {
+                position:absolute;
+                bottom: -10px;
+                width: 400px;
+                height: 30px;
+            }
+          
+            #motherless_brooklyn_table
+            {
+                position: absolute;
+                bottom: 25px;
+                left: 350px;
+                width: 800px;
+                height: 85px;
+            }
+            
+             div#elf
+            {
+                position: relative;
+                left: 230px;
+                width: 80%;
+                height: 570px;
+                border: orange solid thin;
+            }
+            
+            #elf_name
+            {
+                position: absolute;
+                top: 10px;
+                left: 10px;
+                width: 300px;
+                height: 50px;
+            }
+            
+            #elf_about
+            {
+                position: absolute;
+                top: 10px;
+                right: 50px;
+                width: 800px;
+                height: 400px;
+            }
+            
+            #elf_image
+            {
+                position: absolute;
+                top: 85px;
+                left:10px;
+                width: 600px;
+                height: 500px;
+            }
+            
+            #elf_list
+            {
+                position: absolute;
+                top: 280px;
+                left: 350px;
+                width: 65px;
+                height: 200px;
+            }
+            
+            #elf_date
+            {
+                position: absolute;
+                top: 5px;
+                left: 0px;
+                height: 30px;
+            }
+            
+            #elf_starring
+            {
+                position: absolute;
+                top: 50px;
+                left: 0px;
+                height: 30px;
+            }
+            
+            #elf_director
+            {
+                position: absolute;
+                top: 125px;
+                left:0px;
+                height: 30px;
+            }
+            
+            #elf_genres
+            {
+                position: absolute;
+                bottom: 10px;
+                left: 0px;
+                height: 30px;
+            }
+            
+            #elf_info
+            {
+                position: absolute;
+                top: 280px;
+                left: 420px;
+                width: 400px;
+                height: 200px;
+            }
+            
+            #elf_info_date
+            {
+                position: absolute;
+                top: -15px;
+                width: 400px;
+                height: 30px;
+            }
+            
+            #elf_info_starring
+            {
+                position: absolute;
+                top: 30px;
+                width: 400px;
+                height: 30px;
+            }
+            
+            #elf_info_director
+            {
+                position: absolute;
+                top: 105px;
+                width: 400px;
+                height: 30px;
+            }
+            
+            #elf_info_genres
+            {
+                position:absolute;
+                bottom: -10px;
+                width: 400px;
+                height: 30px;
+            }
+
+            #elf_table
+            {
+                position: absolute;
+                bottom: -15px;
+                left: 350px;
+                width: 800px;
+                height: 85px;
+            }
+            
+            div#jumanji
+            {
+                position: relative;
+                left: 230px;
+                width: 80%;
+                height: 570px;
+                border: orange solid thin;
+            }
+            
+            #jumanji_name
+            {
+                position: absolute;
+                top: 10px;
+                left: 10px;
+                width: 300px;
+                height: 50px;
+            }
+            
+            #jumanji_about
+            {
+                position: absolute;
+                top: 10px;
+                right: 50px;
+                width: 800px;
+                height: 400px;
+            }
+            
+            #jumanji_image
+            {
+                position: absolute;
+                top: 85px;
+                left:10px;
+                width: 600px;
+                height: 500px;
+            }
+            
+            #jumanji_list
+            {
+                position: absolute;
+                top: 220px;
+                left: 350px;
+                width: 65px;
+                height: 200px;
+            }
+            
+            #jumanji_date
+            {
+                position: absolute;
+                top: 5px;
+                left: 0px;
+                height: 30px;
+            }
+            
+            #jumanji_starring
+            {
+                position: absolute;
+                top: 50px;
+                left: 0px;
+                height: 30px;
+            }
+            
+            #jumanji_director
+            {
+                position: absolute;
+                top: 105px;
+                left:0px;
+                height: 30px;
+            }
+            
+            #jumanji_genres
+            {
+                position: absolute;
+                bottom: 10px;
+                left: 0px;
+                height: 30px;
+            }
+            
+            #jumanji_info
+            {
+                position: absolute;
+                top: 220px;
+                left: 420px;
+                width: 400px;
+                height: 200px;
+            }
+            
+            #jumanji_info_date
+            {
+                position: absolute;
+                top: -15px;
+                width: 400px;
+                height: 30px;
+            }
+            
+            #jumanji_info_starring
+            {
+                position: absolute;
+                top: 30px;
+                width: 400px;
+                height: 41px;
+            }
+            
+            #jumanji_info_director
+            {
+                position: absolute;
+                top: 85px;
+                width: 400px;
+                height: 30px;
+            }
+            
+            #jumanji_info_genres
+            {
+                position:absolute;
+                bottom: -10px;
+                width: 400px;
+                height: 30px;
+            }
+
+            #jumanji_table
+            {
+                position: absolute;
+                bottom: 25px;
+                left: 350px;
+                width: 800px;
+                height: 85px;
+            }
+                    
+            div#bridges
+            {
+                position: relative;
+                left: 230px;
+                width: 80%;
+                height: 570px;
+                border: orange solid thin;
+            }
+            
+            #bridges_name
+            {
+                position: absolute;
+                top: 10px;
+                left: 10px;
+                width: 300px;
+                height: 50px;
+            }
+            
+            #bridges_about
+            {
+                position: absolute;
+                top: 10px;
+                right: 50px;
+                width: 800px;
+                height: 400px;
+            }
+           
+            #bridges_image
+            {
+                position: absolute;
+                top: 75px;
+                left:10px;
+                width: 600px;
+                height: 500px;
+            }
+            
+            #bridges_list
+            {
+                position: absolute;
+                top: 280px;
+                left: 350px;
+                width: 65px;
+                height: 200px;
+            }
+            
+            #bridges_date
+            {
+                position: absolute;
+                top: 5px;
+                left: 0px;
+                height: 30px;
+            }
+            
+            #bridges_starring
+            {
+                position: absolute;
+                top: 50px;
+                left: 0px;
+                height: 30px;
+            }
+            
+            #bridges_director
+            {
+                position: absolute;
+                top: 105px;
+                left:0px;
+                height: 30px;
+            }
+            
+            #bridges_genres
+            {
+                position: absolute;
+                bottom: 10px;
+                left: 0px;
+                height: 30px;
+            }
+            
+            #bridges_info
+            {
+                position: absolute;
+                top: 280px;
+                left: 420px;
+                width: 400px;
+                height: 200px;
+            }
+            
+            #bridges_info_date
+            {
+                position: absolute;
+                top: -15px;
+                width: 400px;
+                height: 30px;
+            }
+            
+            #bridges_info_starring
+            {
+                position: absolute;
+                top: 30px;
+                width: 400px;
+                height: 30px;
+            }
+            
+            #bridges_info_director
+            {
+                position: absolute;
+                top: 85px;
+                width: 400px;
+                height: 30px;
+           }
+            
+            #bridges_info_genres
+            {
+                position:absolute;
+                bottom: -10px;
+                width: 400px;
+                height: 30px;
+            }
+
+            #bridges_table
+            {
+                position: absolute;
+                bottom: -15px;
+                left: 350px;
+                width: 800px;
+                height: 85px;
+            }
+            
+            div#black_christmas
+            {
+                position: relative;
+                left: 230px;
+                width: 80%;
+                height: 570px;
+                border: orange solid thin;
+            }
+            
+            #black_christmas_name
+            {
+                position: absolute;
+                top: 10px;
+                left: 10px;
+                width: 300px;
+                height: 50px;
+            }
+            
+            #black_christmas_about
+            {
+                position: absolute;
+                top: 10px;
+                right: 50px;
+                width: 800px;
+                height: 400px;
+            }
+            
+            #black_christmas_image
+            {
+                position: absolute;
+                top: 75px;
+                left:10px;
+                width: 600px;
+                height: 500px;
+            }
+            
+            #black_christmas_list
+            {
+                position: absolute;
+                top: 220px;
+                left: 350px;
+                width: 65px;
+                height: 200px;
+            }
+            
+            #black_christmas_date
+            {
+                position: absolute;
+                top: 5px;
+                left: 0px;
+                height: 30px;
+            }
+            
+            #black_christmas_starring
+            {
+                position: absolute;
+                top: 50px;
+                left: 0px;
+                height: 30px;
+            }
+            
+            #black_christmas_director
+            {
+                position: absolute;
+                top: 105px;
+                left:0px;
+                height: 30px;
+            }
+            
+            #black_christmas_genres
+            {
+                position: absolute;
+                bottom: 10px;
+                left: 0px;
+                height: 30px;
+            }
+            
+            #black_christmas_info
+            {
+                position: absolute;
+                top: 220px;
+                left: 420px;
+                width: 400px;
+                height: 200px;
+            }
+            
+            #black_christmas_info_date
+            {
+                position: absolute;
+                top: -15px;
+                width: 400px;
+                height: 30px;
+            }
+            
+            #black_christmas_info_starring
+            {
+                position: absolute;
+                top: 30px;
+                width: 400px;
+                height: 30px;
+            }
+            
+            #black_christmas_info_director
+            {
+                position: absolute;
+                top: 85px;
+                width: 400px;
+                height: 30px;
+            }
+            
+            #black_christmas_info_genres
+            {
+                position:absolute;
+                bottom: -10px;
+                width: 400px;
+                height: 30px;
+            }
+
+            #black_christmas_table
+            {
+                position: absolute;
+                bottom: 25px;
+                left: 350px;
+                width: 800px;
+                height: 85px;
+
+            }
+            
+       
+            div#charlie_angles
+            {
+                position: relative;
+                left: 230px;
+                width: 80%;
+                height: 570px;
+                border: orange solid thin;
+            }
+            
+            #charlie_angles_name
+            {
+                position: absolute;
+                top: 10px;
+                left: 10px;
+                width: 300px;
+                height: 50px;
+            }
+            
+            #charlie_angles_about
+            {
+                position: absolute;
+                top: 10px;
+                right: 50px;
+                width: 800px;
+                height: 400px;
+
+            }
+            
+            #charlie_angles_image
+            {
+                position: absolute;
+                top: 75px;
+                left:10px;
+                width: 600px;
+                height: 500px;
+            }
+            
+            #charlie_angles_list
+            {
+                position: absolute;
+                top: 220px;
+                left: 350px;
+                width: 65px;
+                height: 200px;
+            }
+           
+            #charlie_angles_date
+            {
+                position: absolute;
+                top: 5px;
+                left: 0px;
+                height: 30px;
+            }
+            
+            #charlie_angles_starring
+            {
+                position: absolute;
+                top: 50px;
+                left: 0px;
+                height: 30px;
+            }
+            
+            #charlie_angles_director
+            {
+                position: absolute;
+                top: 105px;
+                left:0px;
+                height: 30px;
+
+            }
+            #charlie_angles_genres
+            {
+                position: absolute;
+                bottom: 10px;
+                left: 0px;
+                height: 30px;
+            }
+            
+            #charlie_angles_info
+            {
+                position: absolute;
+                top: 220px;
+                left: 420px;
+                width: 400px;
+                height: 200px;
+
+            }
+            
+            #charlie_angles_info_date
+            {
+                position: absolute;
+                top: -15px;
+                width: 400px;
+                height: 30px;
+            }
+            
+            #charlie_angles_info_starring
+            {
+                position: absolute;
+                top: 30px;
+                width: 400px;
+                height: 30px;
+
+            }
+            
+            #charlie_angles_info_director
+            {
+                position: absolute;
+                top: 85px;
+                width: 400px;
+                height: 30px;
+
+            }
+            
+            #charlie_angles_info_genres
+            {
+                position:absolute;
+                bottom: -10px;
+                width: 400px;
+                height: 30px;
+            }
+
+            #charlie_angles_table
+            {
+                position: absolute;
+                bottom: 25px;
+                left: 350px;
+                width: 800px;
+                height: 85px;
+
+            }
+            
+
+            div#le_man
+            {
+                position: relative;
+                left: 230px;
+                width: 80%;
+                height: 570px;
+                border: orange solid thin;
+            } 
+            #le_man_name
+            {
+                position: absolute;
+                top: 10px;
+                left: 10px;
+                width: 300px;
+                height: 50px;
+            }
+            
+            #le_man_about
+            {
+                position: absolute;
+                top: 10px;
+                right: 50px;
+                width: 800px;
+                height: 400px;
+
+            }
+            
+            #le_man_image
+            {
+                position: absolute;
+                top: 75px;
+                left:10px;
+                width: 600px;
+                height: 500px;
+
+            }
+            
+            #le_man_list
+            {
+                position: absolute;
+                top: 230px;
+                left: 350px;
+                width: 65px;
+                height: 200px;
+            }
+            
+            #le_man_date
+            {
+                position: absolute;
+                top: 5px;
+                left: 0px;
+                height: 30px;
+            }
+            
+            #le_man_starring
+            {
+                position: absolute;
+                top: 50px;
+                left: 0px;
+                height: 30px;
+            }
+            
+            #le_man_director
+            {
+                position: absolute;
+                top: 105px;
+                left:0px;
+                height: 30px;
+            }
+            
+            #le_man_genres
+            {
+                position: absolute;
+                bottom: 10px;
+                left: 0px;
+                height: 30px;
+            }
+            
+            #le_man_info
+            {
+                position: absolute;
+                top: 230px;
+                left: 420px;
+                width: 400px;
+                height: 200px;
+            }
+            
+            #le_man_info_date
+            {
+                position: absolute;
+                top: -15px;
+                width: 400px;
+                height: 30px;
+
+            }
+            
+            #le_man_info_starring
+            {
+                position: absolute;
+                top: 30px;
+                width: 400px;
+                height: 30px;
+
+            }
+            
+            #le_man_info_director
+            {
+                position: absolute;
+                top: 85px;
+                width: 400px;
+                height: 30px;
+
+            }
+            
+            #le_man_info_genres
+            {
+                position:absolute;
+                bottom: -10px;
+                width: 400px;
+                height: 30px;
+            }
+
+            #le_man_table
+            {
+                position: absolute;
+                bottom: 25px;
+                left: 350px;
+                width: 800px;
+                height: 85px;
+
+            }
+           
+           div#maleficent
+            {
+                position: relative;
+                left: 230px;
+                width: 80%;
+                height: 550px;
+                border: orange solid thin;
+           }
+            
+            #maleficent_name
+            {
+                position: absolute;
+                top: 10px;
+                left: 10px;
+                width: 300px;
+                height: 50px;
+            }
+            
+            #maleficent_about
+            {
+                position: absolute;
+                top: 10px;
+                right: 50px;
+                width: 800px;
+                height: 400px;
+            }
+            
+            
+            #maleficent_image
+            {
+                position: absolute;
+                top: 95px;
+                left:10px;
+                width: 600px;
+                height: 500px;
+            }
+            
+            #maleficent_list
+            {
+                position: absolute;
+                top: 190px;
+                left: 350px;
+                width: 65px;
+                height: 200px;
+
+            }
+            #maleficent_date
+            {
+                position: absolute;
+                top: 5px;
+                left: 0px;
+                height: 30px;
+            }
+            
+            #maleficent_starring
+            {
+                position: absolute;
+                top: 50px;
+                left: 0px;
+                height: 30px;
+            }
+            
+            #maleficent_director
+            {
+                position: absolute;
+                top: 105px;
+                left:0px;
+                height: 30px;
+
+            }
+            
+            #maleficent_genres
+            {
+                position: absolute;
+                bottom: 10px;
+                left: 0px;
+                height: 30px;
+           }
+           
+            #maleficent_info
+            {
+                position: absolute;
+                top: 190px;
+                left: 420px;
+                width: 400px;
+                height: 200px;
+            }
+            
+            #maleficent_info_date
+            {
+                position: absolute;
+                top: -15px;
+                width: 400px;
+                height: 30px;
+
+            }
+            #maleficent_info_starring
+            {
+                position: absolute;
+                top: 30px;
+                width: 400px;
+                height: 30px;
+            }
+            
+            #maleficent_info_director
+            {
+                position: absolute;
+                top: 85px;
+                width: 400px;
+                height: 30px;
+
+            }
+            #maleficent_info_genres
+            {
+                position:absolute;
+                bottom: -10px;
+                width: 400px;
+                height: 30px;
+            }
+
+            #maleficent_table
+            {
+                position: absolute;
+                bottom: 25px;
+                left: 350px;
+                width: 800px;
+                height: 85px;
+
+            }
+
+            .border
+            {
+                margin-top: 20px;
+                margin-bottom: 20px;
+                background-color: black;
+                border-radius: 10px;
+            }
+            
+            .border_list_and_info
+            {
+                border: thin orange solid;
+            }
+
+            .name
+            {
+                color: #FFFF00;
+                font-family:Action-Man; 
+                font-size: 28px;
+                font-weight: bold;
+                text-align: center;
+                border: thin black solid;
+
+            }
+
+            .content
+            {
+                color: #FFFF00;
+                font-size: 20px;
+                font-family: monospace;
+
+            }
+                       
+            ul
+            {
+                list-style-type: none;
+            }
+            
+            .word
+            {
+
+                width: 65px;
+                height: 50px;
+                color: #FFFF00;
+                font-family: SF-Arch-Rival;
+                font-size: 18px;
+                text-align: left;          
+            }
+            
+            .info_word
+            {
+                font-size: 20px;
+                font-family: computer-modern;
+                color: #FFFF00;
+            }
+
+            .table_words
+            {
+                color: #FFFF00;
+                text-align: center;
+                font-family: SF-Arch-Rival;
+            }
+            
+            .bd
+            {
+                box-sizing: border-box;
+                border: thin black solid;
+                margin-left: 10px;
+                float: left;
+            }
+
+            img
+            {
+                 width: 300px;
+                 height: 400px;
+                 opacity: 1.0;
+            }
+      
+            .list-left
+            {
+                width:50%;
+                float:left;
+            }
+            
+            .list-right
+            {
+                width:50%;
+                float:right;
+            }
+            
+            
